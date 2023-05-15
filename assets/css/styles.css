@@ -18,9 +18,9 @@
       -> click on tab (Color Conversion)
       -> Copy the color mode (HSL)
   */
-
-  --hue: 10;
-  --first-color: hsl(var(--hue), 100%, 55%);
+/* Color Light sea grin */
+  --hue: 177;
+  --first-color: hsl(var(--hue), 72%, 37%); 
   --first-color-alt: hsl(var(--hue), 56%, 35%);
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 65%);
@@ -247,7 +247,6 @@ svg{
 /* Active link */
 .active-link{
   color:var(--first-color);
-
 }
 
 /*=============== HOME ===============*/
@@ -308,7 +307,7 @@ svg{
 }
 .home__blob{
   width: 320px;
-  height:320px;;
+  /* height:320px;; */
  
   fill:var(--first-color);
   /*adding ligst effest around the polygon box*/
@@ -317,7 +316,8 @@ svg{
 
 .home__img{
   width:700px;
-  transform:translateX(-30px);
+  transform:translateX(-40px);
+ 
 }
 
 
@@ -356,7 +356,7 @@ svg{
 
 }
 .about__image{
-  justify-self:center;
+  justify-self: center;
 }
 
 /*=============== SKILLS ===============*/
