@@ -654,6 +654,12 @@ svg{
     padding-block:1.5rem;
 
   }
+  .education{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    }
 
 }
 
@@ -671,6 +677,12 @@ svg{
   .nav__menu{
     width:45%;
   }
+  .education{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    }
   
 }
 
@@ -707,6 +719,12 @@ svg{
   .projects__container{
     grid-template-columns: repeat(2,352px);
   }
+  .education{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    }
   
  }
 
@@ -740,6 +758,12 @@ svg{
     backdrop-filter:blur(25px);
     -webkit-backdrop-filter: blur(25px);
   }
+  .education{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    }
 
 }
  @media screen and (min-width:1152px){
@@ -848,4 +872,10 @@ svg{
   .scrollup{
     right:3rem;
   }
+  .education{
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    }
 }
